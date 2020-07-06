@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <title>Movie Seat Booking</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <span class="navbar-toggle" id="burger-toggle">
+          <i class="fas fa-bars"></i>
+        </span>
+        <div class="logo">Film <span>XXI</span></div>
+        <ul class="main-nav" id="menu-toggle">
+          <li><a href="#" class="nav-link-ltr">Film</a></li>
+          <li><a href="#" class="nav-link-ltr">Theater</a></li>
+          <li><a href="#" class="nav-link-ltr">News</a></li>
+          <li><a href="#" class="nav-link-ltr">Service</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Book My Ticket</h2>
+
+      <article id="article1">
+        <div class="judul-movie">
+          <div class="score">
+            <span>9.1</span>
+          </div>
+          <div class="judul">
+            <h3>Mad Max Fury Road</h3>
+            <span class="waktu-film">141 mins</span>
+          </div>
+        </div>
+        <div class="info-film">
+          <div class="gambar-film">
+            <img
+              src="https://image.tmdb.org/t/p/original/kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+              alt=""
+            />
+          </div>
+          <div class="tmpt-tgl">
+            <div class="city">
+              <h4>Kota</h4>
+              <div class="select">
+                <select>
+                  <option value="jakarta">Jakarta</option>
+                  <option value="surabaya">Surabaya</option>
+                  <option value="semarang">Semarang</option>
+                  <option value="yogyakarta">Yogyakarta</option>
+                </select>
+              </div>
+            </div>
+            <div class="tgl-film">
+              <h4>
+                <span class="hari">Minggu</span>, <span class="tgl">14</span>
+                November 2020
+              </h4>
+              <div class="row-tgl">
+                <div class="tanggal">
+                  <p id="namaHari1">Minggu</p>
+                  <div class="tgl-round1 tgl-selected tgl-active">14</div>
+                </div>
+                <div class="tanggal">
+                  <p id="namaHari2">Senin</p>
+                  <div class="tgl-round2">15</div>
+                </div>
+                <div class="tanggal">
+                  <p id="namaHari3">Selasa</p>
+                  <div class="tgl-round3">16</div>
+                </div>
+                <div class="tanggal">
+                  <p id="namaHari4">Rabu</p>
+                  <div class="tgl-round4">17</div>
+                </div>
+                <div class="tanggal">
+                  <p id="namaHari5">Kamis</p>
+                  <div class="tgl-round5">18</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="theater-time">
+            <div class="theater">
+              <h4>Theater</h4>
+              <div class="select">
+                <select>
+                  <option value="Kasablanka XXI">Kasablanka XXI</option>
+                  <option value="Kasablanka XXI">Kasablanka XXI</option>
+                  <option value="Kasablanka XXI">Kasablanka XXI</option>
+                  <option value="Kasablanka XXI">Kasablanka XXI</option>
+                </select>
+              </div>
+            </div>
+            <div class="time">
+              <h4>Waktu</h4>
+              <div class="row-waktu">
+                <div class="waktu waktu-active">12.30</div>
+                <div class="waktu">12.30</div>
+                <div class="waktu">12.30</div>
+                <div class="waktu">12.30</div>
+                <div class="waktu">12.30</div>
+                <div class="waktu">12.30</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="duduk">
+        <h2 class="judul-pilih">
+          Pilih Tempat Duduk
+        </h2>
+        <ul class="showcase">
+          <li>
+            <div class="seat"></div>
+            <small>N/A</small>
+          </li>
+          <li>
+            <div class="seat selected"></div>
+            <small>Pilih</small>
+          </li>
+          <li>
+            <div class="seat occupied"></div>
+            <small>Terisi</small>
+          </li>
+        </ul>
+
+        <div class="tempat-container">
+          <div class="screen"></div>
+          <h2 class="info-screen">screen</h5>
+
+          <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+          </div>
+          <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+          </div>
+          <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+          </div>
+          <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+          </div>
+          <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+          </div>
+        </div>
+
+        <p class="text">
+          Anda Memilih <span id="count">0</span> kursi dengan total harga
+          Rp<span id="total">0</span>
+        </p>
+
+        <div class="booking">
+          <button id="occupied">Pemesanan Tempat</button>
+          <button id="clear">clear</button>
+        </div>
+      </article>
+    </main>
+    <aside id="aside">
+      <div class="container-aside">
+        <img class="imgg" src="img/img1.jpg" alt="">
+        <div class="info-diri">
+          <p>Fathu Danur Prabaswara</p>
+          <p>Umur : 23 Tahun</p>
+          <p>Kuliah di UPNVYK</p>
+          <p>Alamat : Sekarkalam Melikan Wedi Klaten</p>
+          <p>Seseorang yang menyukai manga dan anime yang berusaha menjadi web developer dan designer karakter</p>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/danur.prabasworo"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/dfathu"><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href="https://id.pinterest.com/dfathu/boards/"><i class="fab fa-pinterest"></i></a>
+        </div>
+        <button onclick="closetoggleAside()"><i class="fas fa-times"></i></button>
+      </div>
+    </aside>
+    <footer>
+      <p>Created by dfathu</p>
+      <p>Copyright © 2018 All rights reserved.</p>
+    </footer>
+    <div class="a-social-icons">
+      <a href="#" onclick="toggleAside()"><i class="far fa-id-badge"></i></a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

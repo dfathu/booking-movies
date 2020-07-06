@@ -312,7 +312,7 @@ select {
   width: 25%;
   margin: 4%;
   text-align: center;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .waktu-active {

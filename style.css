@@ -253,6 +253,7 @@ select {
   color: grey;
   background-color: #fff;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .tgl-round1.tgl-selected {
@@ -311,6 +312,7 @@ select {
   width: 25%;
   margin: 4%;
   text-align: center;
+  cursor:pointer;
 }
 
 .waktu-active {
